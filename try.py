@@ -8,6 +8,15 @@ d = 4 + 1080 % 5
 m = 3 + 1080 % 6
 B = 1080 % 3
 total = 0
+
+print("Initial value of t is:", t)
+print("Initial value of a is:", a)
+print("Initial value of n is:", n)
+print("Initial value of M is:", M)
+print("Initial value of d is:", d)
+print("Initial value of m is:", m)
+print("Initial value of B is:", B)
+
 print("Initial total is:", total)
 for k in range(1, n + 1):
     total = total + a * k
